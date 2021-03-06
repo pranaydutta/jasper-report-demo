@@ -44,7 +44,7 @@ public class App
 	report.show();
 
             //export the report to a pdf file
-	report.toPdf(new FileOutputStream("D:/report.pdf"));
+	report.toPdf(new FileOutputStream("report.pdf"));
 } catch (DRException e) {
 	e.printStackTrace();
 } catch (FileNotFoundException e) {
